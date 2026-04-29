@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ecommerce.Infrastructure.Repositories
+﻿namespace Ecommerce.Infrastructure.Repositories
 {
-    internal class UsuarioRepository
+    public class UsuarioRepository
     {
     }
 }
