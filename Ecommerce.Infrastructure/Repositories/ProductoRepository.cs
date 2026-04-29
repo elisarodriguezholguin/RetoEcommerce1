@@ -15,7 +15,7 @@ namespace Ecommerce.Infrastructure.Repositories
 
         public async Task<int> GuardarProducto(Producto producto)
         {
-            _context.pr_producto.Add(producto);
+            _context.Productos.Add(producto);
             return await _context.SaveChangesAsync();
         }
     }
